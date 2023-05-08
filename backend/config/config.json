@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "153123456789",
+    "password": null,
     "database": "medium-clone",
     "host": "127.0.0.1",
     "dialect": "mysql"
