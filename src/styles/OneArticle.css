@@ -1,0 +1,74 @@
+.HeaderTitle {
+    @apply  bg-zinc-700 text-white pt-14 pb-5 pl-40 text-4xl font-bold;
+}
+
+.HeaderTitle > .Author {
+    @apply mt-10;
+}
+
+.ContentArticle {
+    @apply mx-40 my-10 border-b-2;
+}
+
+.ContentArticle > .subContent  {
+    @apply w-full max-w-none;
+}
+
+.ContentArticle > .tag-list-one {
+    @apply list-none mt-20 mb-5;
+}
+
+.tag-list-one > * {
+    @apply inline-block border rounded-3xl text-xs mr-2 p-1 text-zinc-300;
+}
+
+.Comment-row {
+    @apply border rounded-lg mx-40 my-10 text-center;
+}
+
+.Comment-textarea > textarea {
+    @apply block w-full px-3 py-3;
+}
+
+.Comment-row > .Comment-user {
+    @apply bg-zinc-200 px-3 py-3 text-left;
+}
+
+.Comment-user > .name {
+    @apply inline-block pt-1.5 text-lg font-semibold ;
+}
+
+.btn-comment {
+    @apply relative float-right w-[120px] rounded-md bg-[#FFC017] px-3 py-2 text-lg font-semibold text-white hover:bg-yellow-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-600;
+}
+
+.comment-list {
+    @apply border rounded-lg mx-40 my-10 text-center;
+}
+
+.comment-list > .commnet-content {
+    @apply block w-full px-3 py-3 text-left;
+}
+
+.comment-list > .Comment-user {
+    @apply bg-zinc-200 px-3 py-1.5 text-left;
+}
+
+.comment-list .Comment-user .imageProfile {
+    @apply translate-y-1;
+}
+
+.group-name-time {
+    @apply inline-block ;
+}
+.group-name-time .name {
+    @apply text-sm font-medium ;
+}
+
+.group-name-time .time-comment {
+    @apply text-xs text-zinc-400;
+}
+
+.icon-delete-comment {
+    @apply inline-block float-right p-1  pt-1.5 mt-[1px] border border-zinc-400 rounded-lg text-zinc-400 hover:text-zinc-700 hover:border-zinc-700 hover:cursor-pointer;
+}

@@ -1,0 +1,95 @@
+.container{
+    @apply mx-auto mt-5;
+}
+
+.sub-container{
+    @apply flex justify-center  gap-6; 
+}
+
+.sub-container .textbox{
+    @apply basis-6/12  ;
+}
+
+.header-feed{
+    @apply text-gray-400;
+}
+
+.header-feed > * {
+    @apply inline-block font-semibold hover:text-gray-600;
+}
+
+.header-feed > .active {
+    @apply text-[#FFC017] border-b-4 border-[#FFC830] hover:text-yellow-600 hover:border-yellow-600;
+}
+
+.box > * {
+    @apply  border-t-2 border-slate-200 h-44 pt-3 pl-1.5;
+}
+
+.imageProfile {
+    @apply inline-block rounded-lg mr-2 align-top;
+}
+
+.username  {
+    @apply text-base font-semibold text-[#FFC017] hover:text-yellow-600;
+}
+
+.timeCreate {
+    @apply text-xs text-zinc-400;
+}
+
+.articleTitle {
+    @apply font-bold text-2xl;
+}
+
+.contentShow {
+    @apply font-light text-base text-zinc-400 mb-2.5;
+}
+
+.readmore {
+    @apply inline-block text-sm text-zinc-300;
+}
+
+.tag-list {
+    @apply inline-block float-right;
+}
+
+.tag-list > li {
+    @apply inline-block border rounded-3xl text-xs ml-2 p-1 text-zinc-300 hover:cursor-pointer;
+}
+
+.sub-container .tag-container {
+    @apply basis-52 bg-zinc-200 h-full rounded-md p-2 pb-3;
+}
+
+.tag-container .tagHeader {
+    @apply pb-2 pl-2 font-semibold text-2xl text-zinc-700;
+}
+
+.tag-container > ul > li {
+    @apply inline-block rounded-3xl text-xs m-0.5 p-1.5 text-zinc-600 font-semibold bg-white hover:cursor-pointer hover:text-zinc-300;
+}
+
+.page-numbers {
+    @apply pl-0 py-10 text-center h-fit ;
+}
+
+.page-numbers > * {
+    @apply inline-block border border-x-zinc-100 py-1 font-semibold hover:cursor-pointer hover:bg-slate-100;
+}
+
+.page-link {
+    @apply py-3 px-3;
+}
+
+.page-numbers >:first-child {
+    @apply rounded-l-md;
+}
+
+.page-numbers >:last-child {
+    @apply rounded-r-md;
+}
+
+.page-numbers > .active {
+    @apply border-[#FFC017] bg-[#FFC017] text-white hover:bg-yellow-600 hover:border-yellow-600;
+}

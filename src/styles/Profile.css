@@ -1,0 +1,3 @@
+.banner-profile {
+    @apply flex justify-center flex-wrap bg-neutral-100 text-gray-700 font-bold text-xl ;
+}

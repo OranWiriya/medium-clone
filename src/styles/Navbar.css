@@ -1,0 +1,31 @@
+.navbar {
+    @apply transition-colors duration-300 bg-white text-[#FFC017] h-14 pt-4 align-middle  ;
+}
+
+.navbar-v2 {
+    @apply transition-colors duration-300 bg-[#FFC017] text-white h-14 pt-4 align-middle ;
+}
+
+.navbarlogo{
+    @apply  float-left ml-40 font-medium hover:text-yellow-600;
+}
+
+.navbar-menu{
+    @apply float-right mr-40 ;
+}
+
+.navbar-menu > *{
+    @apply pl-5 inline-block;
+}
+
+.dropbox {
+    @apply absolute mt-2  text-[#FFC017] translate-x-[6.5rem];
+}
+
+.dropbox > * {
+    @apply flex-auto border rounded-sm bg-white w-32 py-2 px-2;
+}
+
+.dropbox > div > a {
+    @apply block py-1;
+}

@@ -1,0 +1,7 @@
+.banner {
+    @apply flex justify-center flex-wrap bg-[#FFC017] text-white pt-10 pb-10 ;
+}
+
+.banner > h1 {
+    @apply w-full text-center font-bold text-5xl mb-2.5;
+}
