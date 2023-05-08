@@ -90,7 +90,7 @@ function Article(props) {
                     </li>
                     <li className={global === "following" ? ("ml-3 active") : "ml-3"} >
                         <button onClick={() => handleGlobalfeed("following")}>
-                            Folloing Feed
+                            Following Feed
                         </button>
                     </li>
                     {global && global !== "following" ? (
